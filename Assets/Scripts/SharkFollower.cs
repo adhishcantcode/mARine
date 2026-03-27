@@ -53,7 +53,7 @@ public class SharkFollower : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, turnSpeed * Time.deltaTime);
         }
 
-        // Add a procedural 'wiggle' to the speed to make it look like its swimming.
+        // Add a procedural 'wiggle' to the speed to make it look like its swimming. 
         float swimEffect = Mathf.Sin(Time.time * 5f) * 0.2f;
         transform.position += transform.forward * (followSpeed + swimEffect) * Time.deltaTime;
     }

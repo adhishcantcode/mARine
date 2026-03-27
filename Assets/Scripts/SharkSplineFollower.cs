@@ -23,6 +23,6 @@ public class SharkSplineFollower : MonoBehaviour
     void Update()
     {
         // Use _cachedPathLength here for movement logic.
-        // This ensures the Update() loop remains O(1) complexity.
+        // This ensures the Update() loop remains O(1) complexity. 
     }
 }

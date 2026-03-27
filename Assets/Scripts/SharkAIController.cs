@@ -46,7 +46,7 @@ public class SharkAIController : MonoBehaviour
 
     private void StartChase()
     {
-        // Disable pathfinding so it doesn't fight against the pursuit logic.
+        // Disable pathfinding so it doesn't fight against the pursuit logic. 
         if (_splineFollower != null) _splineFollower.enabled = false;
         if (_follower != null) _follower.enabled = true;
     }
